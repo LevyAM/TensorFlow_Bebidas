@@ -48,8 +48,8 @@ Na linha que mostra o DATA_URL, é necessário modificar a URL, pois o arquivo a
 - DATA_URL = 'http://download.tensorflow.org/models/image/imagenet/inception-v3-2016-03-01.tar.gz'
 
 Agora você pode treinar sua máquina, digite os comandos:
-cd /tensorflow
-python tensorflow/examples/image_retraining/retrain.py \
+ - cd /tensorflow
+ - python tensorflow/examples/image_retraining/retrain.py \
 --bottleneck_dir=/tf_files/bottlenecks \
 --how_many_training_steps 50000 \
 --model_dir=/tf_files/inception \
