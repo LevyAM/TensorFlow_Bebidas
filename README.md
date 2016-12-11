@@ -11,24 +11,10 @@ https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 Na parte 4 do guia do TensorFlow for Poets, ao invés de fazer o download da foto das flores com o comando
 - curl -O http://download.tensorflow.org/example_images/flower_photos.tgz
 
-É necessário fazer o download dos arquivos
-- Frames Video Antartica.rar
-https://www.dropbox.com/s/efj10hczqfouj8d/Frames%20Video%20Antartica.rar?dl=0
-- Frames Video Brahma.rar
-https://www.dropbox.com/s/0q6x1kion4nclvf/Frames%20Video%20Brahma.rar?dl=0
-- Frames Video Skol.rar
-https://www.dropbox.com/s/ew69zdeyfy7jkq4/Frames%20Video%20Skol.rar?dl=0
-- Frames Video Skolbeats.rar
-https://www.dropbox.com/s/4izh95eaybomx1i/Frames%20Video%20Skolbeats.rar?dl=0
-- ignorar.zip
-https://www.dropbox.com/s/xhuxzdqjxd4okzn/ignorar.zip?dl=0
+É necessário fazer o download do arquivo
+ - https://www.dropbox.com/s/43snocgbfsrxbd9/beers.zip?dl=0
 
-É necessário criar uma pasta com nome "beers" e extrair os arquivos para dentro da pasta criando novas pastas seguinte forma:
-- Frames Video Antartica.rar dentro de uma pasta com nome "antartica";
-- Frames Video Brahma.rar dentro de uma pasta com nome "brahma";
-- Frames Video Skol.rar dentro de uma pasta com nome "skol";
-- Frames Video Skolbeats.rar dentro de uma pasta com nome "skolbeatssense";
-- ignorar.zip dentro de uma pasta com nome "ignorar";
+É só extrair tudo dentro do tf_files
 
 Com os arquivos baixados e separados pelas suas pastas dentro de tf_files, voltamos para o docker utilizando:
  - docker ps -aq (Este comando vai lhe retornar o container criado anteriormente)
