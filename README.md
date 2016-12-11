@@ -57,6 +57,8 @@ Agora você pode treinar sua máquina, digite os comandos:
 --output_labels=/tf_files/retrained_labels.txt \
 --image_dir /tf_files/beers
 
+Espere o treinamento acabar e saia do docker(Ctrl+D)
+
 Agora você deve colocar os arquivos python na pasta tf_files:
 - classifica_camera.py
 - pyramid.py
