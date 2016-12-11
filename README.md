@@ -10,6 +10,7 @@ https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 
 Na parte 4 do guia do TensorFlow for Poets, ao invés de fazer o download da foto das flores com o comando
 - curl -O http://download.tensorflow.org/example_images/flower_photos.tgz
+
 É necessário fazer o download dos arquivos
 - Frames Video Antartica.rar
 https://www.dropbox.com/s/efj10hczqfouj8d/Frames%20Video%20Antartica.rar?dl=0
