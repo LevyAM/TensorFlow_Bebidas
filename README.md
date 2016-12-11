@@ -31,11 +31,11 @@ https://www.dropbox.com/s/xhuxzdqjxd4okzn/ignorar.zip?dl=0
 - ignorar.zip dentro de uma pasta com nome "ignorar";
 
 Com os arquivos baixados e separados pelas suas pastas dentro de tf_files, voltamos para o docker utilizando:
- - docker ps -aq (Este comando vai lhe retornar os container criado anteriormente)
+ - docker ps -aq (Este comando vai lhe retornar o container criado anteriormente)
  
 Localize o container com TensorFlow e digite
 - docker start numero_do_container
-- docker run numero_do_container
+- docker attach numero_do_container
 
 Você deve executar o comando:
 - cd /tensorflow
